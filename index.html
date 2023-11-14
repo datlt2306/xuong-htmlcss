@@ -4,217 +4,252 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+        <link rel="stylesheet" href="main.css" />
     </head>
     <body>
-        <section class="hero">
-            <div class="hero-row">
-                <div class="hero-col">
-                    <h1 class="hero__heading">
-                        I’m Rayan Adlrdard <strong>Front-end</strong> Developer
-                    </h1>
-                    <p class="hero__desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat
-                        feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc
-                        lectus.
-                    </p>
-                    <div>
-                        <a href="" class="hero__link">Hire me icon</a>
-                    </div>
-                </div>
-                <div class="hero-col">
-                    <img src="https://picsum.photos/326/460" alt="" class="hero__img" />
-                </div>
-            </div>
-        </section>
-        <!--End .hero-->
-        <section class="services">
-            <header class="section-heading">
-                <h2 class="section-heading__title">my services</h2>
-                <p class="section-heading__desc">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                    officia consequat duis enim velit mollit. lorem ipsum
-                </p>
-            </header>
-            <div class="section-body">
-                <div class="services-row">
-                    <div class="services-col">
-                        <div class="services-img-wrapper">
-                            <img src="" alt="" class="services__img" />
-                        </div>
-                        <h4 class="services__name">web development</h4>
-                        <div class="services-category">
-                            <a href="" class="services__link">blog,</a>
-                            <a href="" class="services__link">e-commerce</a>
-                        </div>
-                    </div>
-                    <!--End .services-col-->
-                    <div class="services-col">
-                        <div class="services-img-wrapper">
-                            <img src="" alt="" class="services__img" />
-                        </div>
-                        <h4 class="services__name">web development</h4>
-                        <div class="services-category">
-                            <a href="" class="services__link">blog,</a>
-                            <a href="" class="services__link">e-commerce</a>
-                        </div>
-                    </div>
-                    <!--End .services-col-->
-                    <div class="services-col">
-                        <div class="services-img-wrapper">
-                            <img src="" alt="" class="services__img" />
-                        </div>
-                        <h4 class="services__name">web development</h4>
-                        <div class="services-category">
-                            <a href="" class="services__link">blog,</a>
-                            <a href="" class="services__link">e-commerce</a>
-                        </div>
-                    </div>
-                    <!--End .services-col-->
-                    <div class="services-col">
-                        <div class="services-img-wrapper">
-                            <img src="" alt="" class="services__img" />
-                        </div>
-                        <h4 class="services__name">web development</h4>
-                        <div class="services-category">
-                            <a href="" class="services__link">blog,</a>
-                            <a href="" class="services__link">e-commerce</a>
-                        </div>
-                    </div>
-                    <!--End .services-col-->
-                    <div class="services-col">
-                        <div class="services-img-wrapper">
-                            <img src="" alt="" class="services__img" />
-                        </div>
-                        <h4 class="services__name">web development</h4>
-                        <div class="services-category">
-                            <a href="" class="services__link">blog,</a>
-                            <a href="" class="services__link">e-commerce</a>
-                        </div>
-                    </div>
-                    <!--End .services-col-->
-                    <div class="services-col">
-                        <div class="services-img-wrapper">
-                            <img src="" alt="" class="services__img" />
-                        </div>
-                        <h4 class="services__name">web development</h4>
-                        <div class="services-category">
-                            <a href="" class="services__link">blog,</a>
-                            <a href="" class="services__link">e-commerce</a>
-                        </div>
-                    </div>
-                    <!--End .services-col-->
-                </div>
-            </div>
-        </section>
-        <!--End .services-->
-        <section class="pricing">
-            <header class="section-heading">
-                <h2 class="section-heading__title">Price plans</h2>
-                <p class="section-heading__desc">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                    officia consequat duis enim velit mollit. lorem ipsum
-                </p>
-            </header>
-            <div class="section-body">
-                <div class="pricing-row">
-                    <div class="pricing-col">
-                        <header class="pricing-header">
-                            <h3 class="pricing__rank">silver</h3>
-                            <div class="pricing-cost-wrapper">
-                                <span class="pricing__cost">$0.00</span>
-                                <span class="pricing__time">/hour</span>
-                            </div>
-                            <!--End .pricing-cost-wrapper-->
-                            <p class="pricing__desc">
-                                For most businesses that want to optimize web queries
+        <div class="wrapper">
+            <aside></aside>
+            <main>
+                <section class="hero">
+                    <div class="hero-row">
+                        <div class="hero-col">
+                            <h1 class="hero__heading">
+                                I’m Rayan Adlrdard
+                                <strong class="hero__position">Front-end</strong> Developer
+                            </h1>
+                            <p class="hero__desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
+                                volutpat feugiat placerat lobortis. Natoque rutrum semper sed
+                                suspendisse nunc lectus.
                             </p>
-                        </header>
-                        <div class="pricing-body">
-                            <ul>
-                                <li>UI Design</li>
-                                <li>web development</li>
-                                <li>logo design</li>
-                                <li>seo optimization</li>
-                                <li>wordPress integration</li>
-                                <li>5 Websites</li>
-                                <li>unlimited user</li>
-                                <li>20 gB bandwith</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-footer">
-                            <a href="" class="pricing__order">ORDER NOW</a>
-                        </div>
-                    </div>
-                    <!--End .pricing-col-->
-                    <div class="pricing-col">
-                        <header class="pricing-header">
-                            <h3 class="pricing__rank">silver</h3>
-                            <div class="pricing-cost-wrapper">
-                                <span class="pricing__cost">$0.00</span>
-                                <span class="pricing__time">/hour</span>
+                            <div>
+                                <a href="" class="hero__link btn btn-primary rounded-sm btn-lg"
+                                    >Hire me
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        class="icon icon-sm"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                                        />
+                                    </svg>
+                                </a>
                             </div>
-                            <!--End .pricing-cost-wrapper-->
-                            <p class="pricing__desc">
-                                For most businesses that want to optimize web queries
-                            </p>
-                        </header>
-                        <div class="pricing-body">
-                            <ul>
-                                <li>UI Design</li>
-                                <li>web development</li>
-                                <li>logo design</li>
-                                <li>seo optimization</li>
-                                <li>wordPress integration</li>
-                                <li>5 Websites</li>
-                                <li>unlimited user</li>
-                                <li>20 gB bandwith</li>
-                            </ul>
                         </div>
-                        <div class="pricing-footer">
-                            <a href="" class="pricing__order">ORDER NOW</a>
+                        <div class="hero-col">
+                            <img src="https://picsum.photos/326/460" alt="" class="hero__img" />
                         </div>
                     </div>
-                    <!--End .pricing-col-->
-                    <div class="pricing-col">
-                        <header class="pricing-header">
-                            <h3 class="pricing__rank">silver</h3>
-                            <div class="pricing-cost-wrapper">
-                                <span class="pricing__cost">$0.00</span>
-                                <span class="pricing__time">/hour</span>
+                </section>
+                <!--End .hero-->
+                <section class="services">
+                    <header class="section-heading text-center w-1/2">
+                        <h2 class="section-heading__title">My services</h2>
+                        <p class="section-heading__desc">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+                        </p>
+                    </header>
+                    <div class="section-body">
+                        <div class="services-row">
+                            <div class="services-col text-center">
+                                <div class="services-img-wrapper">
+                                    <img src="" alt="" class="services__img" />
+                                </div>
+                                <h4 class="services__name">web development</h4>
+                                <div class="services-category">
+                                    <a href="" class="services__link">blog,</a>
+                                    <a href="" class="services__link">e-commerce</a>
+                                </div>
                             </div>
-                            <!--End .pricing-cost-wrapper-->
-                            <p class="pricing__desc">
-                                For most businesses that want to optimize web queries
-                            </p>
-                        </header>
-                        <div class="pricing-body">
-                            <ul>
-                                <li>UI Design</li>
-                                <li>web development</li>
-                                <li>logo design</li>
-                                <li>seo optimization</li>
-                                <li>wordPress integration</li>
-                                <li>5 Websites</li>
-                                <li>unlimited user</li>
-                                <li>20 gB bandwith</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-footer">
-                            <a href="" class="pricing__order">ORDER NOW</a>
+                            <!--End .services-col-->
+                            <div class="services-col text-center">
+                                <div class="services-img-wrapper">
+                                    <img
+                                        src="./images/icons/coding.svg"
+                                        alt=""
+                                        class="services__img"
+                                    />
+                                </div>
+                                <h4 class="services__name">web development</h4>
+                                <div class="services-category">
+                                    <a href="" class="services__link">blog,</a>
+                                    <a href="" class="services__link">e-commerce</a>
+                                </div>
+                            </div>
+                            <!--End .services-col-->
+                            <div class="services-col text-center">
+                                <div class="services-img-wrapper">
+                                    <img src="" alt="" class="services__img" />
+                                </div>
+                                <h4 class="services__name">web development</h4>
+                                <div class="services-category">
+                                    <a href="" class="services__link">blog,</a>
+                                    <a href="" class="services__link">e-commerce</a>
+                                </div>
+                            </div>
+                            <!--End .services-col-->
+                            <div class="services-col text-center">
+                                <div class="services-img-wrapper">
+                                    <img src="" alt="" class="services__img" />
+                                </div>
+                                <h4 class="services__name">web development</h4>
+                                <div class="services-category">
+                                    <a href="" class="services__link">blog,</a>
+                                    <a href="" class="services__link">e-commerce</a>
+                                </div>
+                            </div>
+                            <!--End .services-col-->
+                            <div class="services-col text-center">
+                                <div class="services-img-wrapper">
+                                    <img src="" alt="" class="services__img" />
+                                </div>
+                                <h4 class="services__name">web development</h4>
+                                <div class="services-category">
+                                    <a href="" class="services__link">blog,</a>
+                                    <a href="" class="services__link">e-commerce</a>
+                                </div>
+                            </div>
+                            <!--End .services-col-->
+                            <div class="services-col text-center">
+                                <div class="services-img-wrapper">
+                                    <img src="" alt="" class="services__img" />
+                                </div>
+                                <h4 class="services__name">web development</h4>
+                                <div class="services-category">
+                                    <a href="" class="services__link">blog,</a>
+                                    <a href="" class="services__link">e-commerce</a>
+                                </div>
+                            </div>
+                            <!--End .services-col-->
                         </div>
                     </div>
-                    <!--End .pricing-col-->
-                </div>
-            </div>
-        </section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+                </section>
+                <!--End .services-->
+                <section class="pricing">
+                    <header class="section-heading">
+                        <h2 class="section-heading__title">Price plans</h2>
+                        <p class="section-heading__desc">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+                        </p>
+                    </header>
+                    <div class="section-body">
+                        <div class="pricing-row">
+                            <div class="pricing-col">
+                                <header class="pricing-header">
+                                    <h3 class="pricing__rank">silver</h3>
+                                    <div class="pricing-cost-wrapper">
+                                        <span class="pricing__cost">$0.00</span>
+                                        <span class="pricing__time">/hour</span>
+                                    </div>
+                                    <!--End .pricing-cost-wrapper-->
+                                    <p class="pricing__desc">
+                                        For most businesses that want to optimize web queries
+                                    </p>
+                                </header>
+                                <div class="pricing-body">
+                                    <ul>
+                                        <li>UI Design</li>
+                                        <li>web development</li>
+                                        <li>logo design</li>
+                                        <li>seo optimization</li>
+                                        <li>wordPress integration</li>
+                                        <li>5 Websites</li>
+                                        <li>unlimited user</li>
+                                        <li>20 gB bandwith</li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-footer">
+                                    <a href="" class="pricing__order">ORDER NOW</a>
+                                </div>
+                            </div>
+                            <!--End .pricing-col-->
+                            <div class="pricing-col">
+                                <header class="pricing-header">
+                                    <h3 class="pricing__rank">silver</h3>
+                                    <div class="pricing-cost-wrapper">
+                                        <span class="pricing__cost">$0.00</span>
+                                        <span class="pricing__time">/hour</span>
+                                    </div>
+                                    <!--End .pricing-cost-wrapper-->
+                                    <p class="pricing__desc">
+                                        For most businesses that want to optimize web queries
+                                    </p>
+                                </header>
+                                <div class="pricing-body">
+                                    <ul>
+                                        <li>UI Design</li>
+                                        <li>web development</li>
+                                        <li>logo design</li>
+                                        <li>seo optimization</li>
+                                        <li>wordPress integration</li>
+                                        <li>5 Websites</li>
+                                        <li>unlimited user</li>
+                                        <li>20 gB bandwith</li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-footer">
+                                    <a href="" class="pricing__order">ORDER NOW</a>
+                                </div>
+                            </div>
+                            <!--End .pricing-col-->
+                            <div class="pricing-col">
+                                <header class="pricing-header">
+                                    <h3 class="pricing__rank">silver</h3>
+                                    <div class="pricing-cost-wrapper">
+                                        <span class="pricing__cost">$0.00</span>
+                                        <span class="pricing__time">/hour</span>
+                                    </div>
+                                    <!--End .pricing-cost-wrapper-->
+                                    <p class="pricing__desc">
+                                        For most businesses that want to optimize web queries
+                                    </p>
+                                </header>
+                                <div class="pricing-body">
+                                    <ul>
+                                        <li>UI Design</li>
+                                        <li>web development</li>
+                                        <li>logo design</li>
+                                        <li>seo optimization</li>
+                                        <li>wordPress integration</li>
+                                        <li>5 Websites</li>
+                                        <li>unlimited user</li>
+                                        <li>20 gB bandwith</li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-footer">
+                                    <a href="" class="pricing__order">ORDER NOW</a>
+                                </div>
+                            </div>
+                            <!--End .pricing-col-->
+                        </div>
+                    </div>
+                </section>
+                <section></section>
+                <section></section>
+                <section></section>
+                <section></section>
+                <section></section>
+                <section></section>
+                <section></section>
+                <section></section>
+                <section></section>
+            </main>
+            <nav></nav>
+        </div>
     </body>
 </html>
